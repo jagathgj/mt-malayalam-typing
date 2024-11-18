@@ -1,7 +1,7 @@
 {
   "name": "mt-malayalam-typing",
   "version": "0.1.0",
-  "homepage": "/",
+  "homepage": "https://jagathgj.github.io/mt-malayalam-typing/",
   "dependencies": {
     "@carbon/icons-react": "^11.52.0",
     "@carbon/react": "^1.70.0",
