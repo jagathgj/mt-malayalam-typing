@@ -1,0 +1,182 @@
+@use "@carbon/react/scss/theme" as *;
+@use "@carbon/react/scss/type" as *;
+@use "@carbon/react/scss/spacing" as *;
+@use "@carbon/styles/scss/components/button/tokens" as *;
+
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 960px;
+  max-width: 960px;
+}
+
+.row {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  width: 100%;
+  margin: $spacing-02;
+  transition: 0.3s;
+  flex: 1;
+}
+
+// .cds--btn {
+//   width: 100%;
+//   font-size: 1em;
+//   transition: 0.3s;
+//   min-width: 3em;
+// }
+
+// #esc {
+//   width: 3em;
+// }
+
+.tab {
+  //   width: 5em;
+  flex: 1 1 2em;
+}
+
+.caps {
+  //   width: 6em;
+  flex: 1 1 6em;
+}
+
+.left-shift {
+  //   width: 8em;
+  flex: 1 1 8em;
+}
+
+.enter {
+  //   width: 6em;
+  flex: 1 1 6em;
+}
+
+.right-shift {
+  //   width: 8em;
+  flex: 1 1 8em;
+}
+
+// .back {
+//   width: 5em;
+// }
+
+/* Bottom Row Keys */
+.ctrl-left {
+  //   width: 6em;
+  flex: 1 1 6em;
+}
+
+.command-left {
+  //   width: 7em;
+  flex: 1 1 7em;
+}
+
+.alt-left {
+  //   width: 6em;
+  flex: 1 1 6em;
+}
+
+.space {
+  //   flex: 4;
+  flex: 1 1 20em;
+}
+
+.alt-right {
+  //   width: 6em;
+  flex: 1 1 6em;
+}
+
+.command-right {
+  //   width: 7em;
+  flex: 1 1 7em;
+}
+
+.menu {
+  //   width: 6em;
+  flex: 1 1 6em;
+}
+
+.ctrl-right {
+  //   width: 6em;
+  flex: 1 1 6em;
+}
+
+.cds-btn {
+  display: inline-block;
+  padding: $spacing-05;
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0);
+  @include type-style("body-short-01");
+}
+
+.cds-btn--primary {
+  @extend .cds-btn;
+
+  // Primary styles
+  background-color: $button-primary;
+  color: $text-on-color;
+
+  &:hover {
+    background-color: $button-primary-hover;
+  }
+
+  &:active {
+    background-color: $button-primary-active;
+  }
+
+  &:focus {
+    border-color: $focus;
+    box-shadow: inset 0 0 0 1px $focus, inset 0 0 0 2px $background;
+  }
+}
+
+.cds-btn--secondary {
+  @extend .cds-btn;
+
+  // Secondary styles
+  background-color: $button-secondary;
+  color: $text-on-color;
+
+  &:hover {
+    background-color: $button-secondary-hover;
+  }
+
+  &:active {
+    background-color: $button-secondary-active;
+  }
+
+  &:focus {
+    border-color: $focus;
+    box-shadow: inset 0 0 0 1px $focus, inset 0 0 0 2px $background;
+  }
+}
+
+.cds-btn--danger {
+  @extend .cds-btn;
+
+  // Secondary styles
+  background-color: $button-danger-primary;
+  color: $text-on-color;
+
+  &:hover {
+    background-color: $button-danger-hover;
+  }
+
+  &:active {
+    background-color: $button-danger-active;
+  }
+
+  &:focus {
+    border-color: $focus;
+    box-shadow: inset 0 0 0 1px $focus, inset 0 0 0 2px $background;
+  }
+}
