@@ -1,5 +1,5 @@
 {
-  "name": "Create-react-templete-v11",
+  "name": "mt-malayalam-typing",
   "version": "0.1.0",
   "homepage": "/",
   "dependencies": {
@@ -8,7 +8,6 @@
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.0.1",
     "@testing-library/user-event": "^14.5.2",
-    "gh-pages": "^6.2.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "^5.0.1",
@@ -42,5 +41,8 @@
     ]
   },
   "author": "Jagath Jayakumar",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
+  }
 }
