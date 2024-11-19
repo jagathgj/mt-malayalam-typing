@@ -1,8 +1,7 @@
 import React from "react";
-// import { Button } from "@carbon/react";
 import "./keyboard.scss";
 
-const Keyboard = ({ handleKeyPress }) => {
+const Keyboard = ({ handleKeyPress, activeKeys }) => {
   const rows = [
     [
       { label: "ESC", className: "esc", wide: true },
@@ -18,7 +17,7 @@ const Keyboard = ({ handleKeyPress }) => {
       { label: "0", className: "letter-keys", wide: false },
       { label: "-", className: "letter-keys", wide: false },
       { label: "+", className: "letter-keys", wide: false },
-      { label: "BACK", className: "back", wide: true }
+      { label: "BACKSPACE", className: "back", wide: true }
     ],
     [
       { label: "TAB", className: "tab", wide: true },
@@ -48,7 +47,7 @@ const Keyboard = ({ handleKeyPress }) => {
       { label: "K", className: "letter-keys", wide: false },
       { label: "L", className: "letter-keys", wide: false },
       { label: ":", className: "letter-keys", wide: false },
-      { label: "''", className: "letter-keys", wide: false },
+      { label: "'", className: "letter-keys", wide: false },
       { label: "ENTER", className: "enter", wide: true }
     ],
     [
@@ -62,7 +61,7 @@ const Keyboard = ({ handleKeyPress }) => {
       { label: "M", className: "letter-keys", wide: false },
       { label: ",", className: "letter-keys", wide: false },
       { label: ".", className: "letter-keys", wide: false },
-      { label: ";", className: "letter-keys", wide: false },
+      { label: "/", className: "letter-keys", wide: false },
       { label: "SHIFT", className: "right-shift", wide: true }
     ],
     [
@@ -80,19 +79,21 @@ const Keyboard = ({ handleKeyPress }) => {
   return (
     <div className="keyboard">
       {rows.map((row, rowIndex) => (
-        <ul key={rowIndex} className={`row row-${rowIndex}`}>
-          {row.map((key) => (
-            <li key={key.id || key.label} className={key.className}>
+        <ul key={`row-${rowIndex}`} className={`row row-${rowIndex}`}>
+          {row.map((key, colIndex) => (
+            <li key={`${rowIndex}-${colIndex}`} className={key.className}>
               <button
                 className={`cds-btn ${
+                  activeKeys.includes(key.label.toUpperCase()) ? "active" : ""
+                } ${
                   key.wide && key.extraWide
                     ? "cds-btn--primary"
                     : key.className === "enter"
                     ? "cds-btn--danger"
                     : "cds-btn--secondary"
                 }`}
-                onClick={() => handleKeyPress(key.label)}
-                onKeyUp={() => handleKeyPress(key.label)}
+                onMouseDown={(e) => handleKeyPress(key.label, e, true)}
+                onMouseUp={(e) => handleKeyPress(key.label, e, false)}
               >
                 {key.label}
               </button>

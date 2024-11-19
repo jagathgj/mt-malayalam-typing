@@ -129,7 +129,8 @@ li {
     background-color: $button-primary-hover;
   }
 
-  &:active {
+  &:active,
+  &.active {
     background-color: $button-primary-active;
   }
 
@@ -150,8 +151,9 @@ li {
     background-color: $button-secondary-hover;
   }
 
-  &:active {
-    background-color: $button-secondary-active;
+  &:active,
+  &.active {
+    background-color: $button-danger-primary;
   }
 
   &:focus {
@@ -171,12 +173,25 @@ li {
     background-color: $button-danger-hover;
   }
 
-  &:active {
+  &:active,
+  &.active {
     background-color: $button-danger-active;
   }
 
   &:focus {
     border-color: $focus;
     box-shadow: inset 0 0 0 1px $focus, inset 0 0 0 2px $background;
+  }
+}
+
+@media (max-width: 768px) {
+  .keyboard-wrapper {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .keyboard-wrapper {
+    display: none;
   }
 }

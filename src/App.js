@@ -1,131 +1,106 @@
-import React, { useState, useEffect, useRef, useCallback } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { TextArea } from "@carbon/react";
 import MTHeader from "./components/Header/Header";
 import Keyboard from "./components/Keyboard/Keyboard";
 
 const App = () => {
-  const [typedLetters, setTypedLetters] = useState("");
-  const [selectedText, setSelectedText] = useState("");
-  const [isShiftPressed, setIsShiftPressed] = useState(false);
-  const [isCtrlPressed, setIsCtrlPressed] = useState(false);
-  const cursorPosition = useRef(typedLetters.length);
-  const handleKeyPress = useCallback(
-    (label) => {
-      setTypedLetters((prev) => prev + label);
-      cursorPosition.current = typedLetters.length + 1;
-    },
-    [typedLetters]
-  );
+  const [activeKeys, setActiveKeys] = useState([]);
+  const textareaRef = useRef();
 
-  const handleSelectAll = useCallback(() => {
-    setSelectedText(typedLetters);
-  }, [typedLetters]);
+  const handleKeyPress = (key, event, isKeyDown) => {
+    textareaRef.current.focus();
 
-  const handleCopy = useCallback(() => {
-    if (selectedText) {
-      navigator.clipboard.writeText(selectedText);
-    } else {
-      navigator.clipboard.writeText(typedLetters);
+    if (key === "Tab") {
+      event.preventDefault();
+      textareaRef.current.focus();
     }
-  }, [selectedText, typedLetters]);
 
-  const handlePaste = useCallback(async () => {
-    const text = await navigator.clipboard.readText();
-    setTypedLetters((prev) => prev + text);
-  }, []);
+    const normalizedKey =
+      key === "Escape"
+        ? "ESC"
+        : key === " " || key === "Spacebar"
+        ? "SPACE"
+        : key === ":" || key === ";"
+        ? ":"
+        : key === "/" || key === "?"
+        ? "/"
+        : key === "+" || key === "="
+        ? "+"
+        : key === "<" || key === ","
+        ? ","
+        : key === ">" || key === "."
+        ? "."
+        : key === "{" || key === "["
+        ? "["
+        : key === "}" || key === "]"
+        ? "]"
+        : key === "|" || key === "\\"
+        ? "\\"
+        : key === "1" || key === "!"
+        ? "1"
+        : key === "2" || key === "@"
+        ? "2"
+        : key === "3" || key === "#"
+        ? "3"
+        : key === "4" || key === "$"
+        ? "4"
+        : key === "5" || key === "%"
+        ? "5"
+        : key === "6" || key === "^"
+        ? "6"
+        : key === "7" || key === "&"
+        ? "7"
+        : key === "8" || key === "*"
+        ? "8"
+        : key === "9" || key === "("
+        ? "9"
+        : key === "0" || key === ")"
+        ? "0"
+        : key === "Control"
+        ? "CTRL"
+        : key === "Alt"
+        ? "ALT"
+        : key === "Meta"
+        ? "COMMAND"
+        : key === "Tab"
+        ? "TAB"
+        : key === "Backspace"
+        ? "BACKSPACE"
+        : key === "Shift"
+        ? "SHIFT"
+        : key === "'" || key === '"'
+        ? "'"
+        : key.toUpperCase();
 
-  const handleCut = useCallback(() => {
-    if (selectedText) {
-      navigator.clipboard.writeText(selectedText);
-      setTypedLetters((prev) => prev.replace(selectedText, ""));
+    setActiveKeys((prevKeys) => {
+      if (isKeyDown) {
+        if (!prevKeys.includes(normalizedKey)) {
+          return [...prevKeys, normalizedKey];
+        }
+      } else {
+        return prevKeys.filter((item) => item !== normalizedKey);
+      }
+      return prevKeys;
+    });
+
+    if (
+      isKeyDown &&
+      normalizedKey !== "SHIFT" &&
+      normalizedKey !== "CTRL" &&
+      normalizedKey !== "ALT" &&
+      normalizedKey !== "COMMAND"
+    ) {
+      setTimeout(() => {
+        setActiveKeys((prevKeys) =>
+          prevKeys.filter((item) => item !== normalizedKey)
+        );
+      }, 100);
     }
-  }, [selectedText]);
+  };
 
   useEffect(() => {
-    const handleKeyboardEvent = (event) => {
-      const key = event.key;
-
-      if (
-        ["Shift", "Control", "Alt", "Meta", "CapsLock", "Escape"].includes(key)
-      ) {
-        return;
-      }
-
-      if (key === "Enter") {
-        setTypedLetters((prev) => prev + "\n");
-      } else if (key === "Backspace") {
-        setTypedLetters((prev) => prev.slice(0, -1));
-      } else if (key === "ArrowUp") {
-        setTypedLetters((prev) => prev + "[UP ARROW]");
-      } else if (key === "ArrowDown") {
-        setTypedLetters((prev) => prev + "[DOWN ARROW]");
-      } else if (key === "ArrowLeft") {
-        setTypedLetters((prev) => prev + "[LEFT ARROW]");
-      } else if (key === "ArrowRight") {
-        setTypedLetters((prev) => prev + "[RIGHT ARROW]");
-      } else if (isCtrlPressed && key === "c") {
-        event.preventDefault();
-        handleCopy();
-      } else if (isCtrlPressed && key === "v") {
-        event.preventDefault();
-        handlePaste();
-      } else if (isCtrlPressed && key === "x") {
-        event.preventDefault();
-        handleCut();
-      } else if (isCtrlPressed && key === "a") {
-        event.preventDefault();
-        handleSelectAll();
-      } else {
-        const typedKey = isShiftPressed ? key.toUpperCase() : key.toLowerCase();
-        setTypedLetters((prev) => prev + typedKey);
-      }
-    };
-
-    const handleCtrlKeyDown = (event) => {
-      if (event.key === "Control") {
-        setIsCtrlPressed(true);
-      }
-    };
-
-    const handleCtrlKeyUp = (event) => {
-      if (event.key === "Control") {
-        setIsCtrlPressed(false);
-      }
-    };
-
-    const handleShiftKeyDown = (event) => {
-      if (event.key === "Shift") {
-        setIsShiftPressed(true);
-      }
-    };
-
-    const handleShiftKeyUp = (event) => {
-      if (event.key === "Shift") {
-        setIsShiftPressed(false);
-      }
-    };
-
-    window.addEventListener("keydown", handleKeyboardEvent);
-    window.addEventListener("keydown", handleCtrlKeyDown);
-    window.addEventListener("keyup", handleCtrlKeyUp);
-    window.addEventListener("keydown", handleShiftKeyDown);
-    window.addEventListener("keyup", handleShiftKeyUp);
-
-    return () => {
-      window.removeEventListener("keydown", handleKeyboardEvent);
-      window.removeEventListener("keydown", handleCtrlKeyDown);
-      window.removeEventListener("keyup", handleCtrlKeyUp);
-      window.removeEventListener("keydown", handleShiftKeyDown);
-      window.removeEventListener("keyup", handleShiftKeyUp);
-    };
-  }, [
-    handleCopy,
-    handleCut,
-    handleSelectAll,
-    isCtrlPressed,
-    isShiftPressed,
-    handlePaste
-  ]);
+    textareaRef.current.focus();
+  }, []);
 
   return (
     <div className="container">
@@ -133,16 +108,18 @@ const App = () => {
       <div className="wrapper">
         <div className="textarea-wrapper">
           <TextArea
-            labelText="Text Area label"
-            helperText="Optional helper text"
+            ref={textareaRef}
+            labelText="Text Area"
+            helperText=""
             rows={4}
             id="text-area-1"
-            counterMode="word"
-            value={typedLetters}
+            onKeyDown={(e) => handleKeyPress(e.key, e, true)}
+            onKeyUp={(e) => handleKeyPress(e.key, e, false)}
+            tabIndex={0}
           />
         </div>
         <div className="keyboard-wrapper">
-          <Keyboard handleKeyPress={handleKeyPress} />
+          <Keyboard handleKeyPress={handleKeyPress} activeKeys={activeKeys} />
         </div>
       </div>
     </div>
