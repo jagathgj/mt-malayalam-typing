@@ -1,5 +1,6 @@
 @use "@carbon/react";
 @use "@carbon/react/scss/theme" as *;
+@use "@carbon/react/scss/spacing" as *;
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;300;400;500;600;700&display=swap");
 
 html,
@@ -50,5 +51,18 @@ body,
   .cds--text-area__wrapper {
     height: 100%;
     flex: 1;
+    font-size: 24px;
+  }
+}
+
+.switcher-wrapper {
+  display: flex;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto $spacing-06;
+  justify-content: flex-end;
+
+  & > div {
+    flex: 0 0 220px;
   }
 }
