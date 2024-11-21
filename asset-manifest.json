@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/mt-malayalam-typing/static/css/main.c26357f4.css",
-    "main.js": "/mt-malayalam-typing/static/js/main.bd6c33c0.js",
+    "main.js": "/mt-malayalam-typing/static/js/main.34097b6a.js",
     "static/media/Meera_04.woff": "/mt-malayalam-typing/static/media/Meera_04.dab6d714b663d8723fd3.woff",
+    "service-worker.js": "/mt-malayalam-typing/service-worker.js",
     "static/media/IBMPlexSerif-SemiBoldItalic-Cyrillic.woff": "/mt-malayalam-typing/static/media/IBMPlexSerif-SemiBoldItalic-Cyrillic.d96e5a614e96c351c453.woff",
     "static/media/IBMPlexSerif-SemiBoldItalic-Latin1.woff": "/mt-malayalam-typing/static/media/IBMPlexSerif-SemiBoldItalic-Latin1.b691d8c0c5110ea3659e.woff",
     "static/media/IBMPlexSerif-Italic-Cyrillic.woff": "/mt-malayalam-typing/static/media/IBMPlexSerif-Italic-Cyrillic.452cc78a1baf50168631.woff",
@@ -185,10 +186,10 @@
     "static/media/IBMPlexMono-Regular-Latin3.woff2": "/mt-malayalam-typing/static/media/IBMPlexMono-Regular-Latin3.cacfd1d7dbd14067b970.woff2",
     "index.html": "/mt-malayalam-typing/index.html",
     "main.c26357f4.css.map": "/mt-malayalam-typing/static/css/main.c26357f4.css.map",
-    "main.bd6c33c0.js.map": "/mt-malayalam-typing/static/js/main.bd6c33c0.js.map"
+    "main.34097b6a.js.map": "/mt-malayalam-typing/static/js/main.34097b6a.js.map"
   },
   "entrypoints": [
     "static/css/main.c26357f4.css",
-    "static/js/main.bd6c33c0.js"
+    "static/js/main.34097b6a.js"
   ]
 }
