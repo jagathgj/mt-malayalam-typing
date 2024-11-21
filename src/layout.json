@@ -1,0 +1,1739 @@
+{
+  "englishLayout": {
+    "normal": [
+      [
+        {
+          "label": "`",
+          "key": "`",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Backquote"
+        },
+        {
+          "label": "1",
+          "key": "1",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit1"
+        },
+        {
+          "label": "2",
+          "key": "2",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit2"
+        },
+        {
+          "label": "3",
+          "key": "3",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit3"
+        },
+        {
+          "label": "4",
+          "key": "4",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit4"
+        },
+        {
+          "label": "5",
+          "key": "5",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit5"
+        },
+        {
+          "label": "6",
+          "key": "6",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit6"
+        },
+        {
+          "label": "7",
+          "key": "7",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit7"
+        },
+        {
+          "label": "8",
+          "key": "8",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit8"
+        },
+        {
+          "label": "9",
+          "key": "9",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit9"
+        },
+        {
+          "label": "0",
+          "key": "0",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit0"
+        },
+        {
+          "label": "-",
+          "key": "-",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Minus"
+        },
+        {
+          "label": "=",
+          "key": "=",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Equal"
+        },
+        {
+          "label": "BACKSPACE",
+          "key": "BACKSPACE",
+          "className": "back",
+          "wide": true,
+          "code": "Backspace"
+        }
+      ],
+      [
+        {
+          "label": "TAB",
+          "key": "TAB",
+          "className": "tab",
+          "wide": true,
+          "code": "Tab"
+        },
+        {
+          "label": "q",
+          "key": "q",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyQ"
+        },
+        {
+          "label": "w",
+          "key": "w",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyW"
+        },
+        {
+          "label": "e",
+          "key": "e",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyE"
+        },
+        {
+          "label": "r",
+          "key": "r",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyR"
+        },
+        {
+          "label": "t",
+          "key": "t",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyT"
+        },
+        {
+          "label": "y",
+          "key": "y",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyY"
+        },
+        {
+          "label": "u",
+          "key": "u",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyU"
+        },
+        {
+          "label": "i",
+          "key": "i",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyI"
+        },
+        {
+          "label": "o",
+          "key": "o",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyO"
+        },
+        {
+          "label": "p",
+          "key": "p",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyP"
+        },
+        {
+          "label": "[",
+          "key": "[",
+          "className": "layout-key",
+          "wide": false,
+          "code": "BracketLeft"
+        },
+        {
+          "label": "]",
+          "key": "]",
+          "className": "layout-key",
+          "wide": false,
+          "code": "BracketRight"
+        },
+        {
+          "label": "\\",
+          "key": "\\",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Backslash"
+        }
+      ],
+      [
+        {
+          "label": "CAPS",
+          "key": "CAPS",
+          "className": "caps",
+          "wide": true,
+          "code": "CapsLock"
+        },
+        {
+          "label": "a",
+          "key": "a",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyA"
+        },
+        {
+          "label": "s",
+          "key": "s",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyS"
+        },
+        {
+          "label": "d",
+          "key": "d",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyD"
+        },
+        {
+          "label": "f",
+          "key": "f",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyF"
+        },
+        {
+          "label": "g",
+          "key": "g",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyG"
+        },
+        {
+          "label": "h",
+          "key": "h",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyH"
+        },
+        {
+          "label": "j",
+          "key": "j",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyJ"
+        },
+        {
+          "label": "k",
+          "key": "k",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyK"
+        },
+        {
+          "label": "l",
+          "key": "l",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyL"
+        },
+        {
+          "label": ";",
+          "key": ";",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Semicolon"
+        },
+        {
+          "label": "'",
+          "key": "'",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Quote"
+        },
+        {
+          "label": "ENTER",
+          "key": "ENTER",
+          "className": "enter",
+          "wide": true,
+          "code": "Enter"
+        }
+      ],
+      [
+        {
+          "label": "SHIFT",
+          "key": "SHIFT",
+          "className": "shift-left",
+          "wide": true,
+          "code": "ShiftLeft"
+        },
+        {
+          "label": "z",
+          "key": "z",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyZ"
+        },
+        {
+          "label": "x",
+          "key": "x",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyX"
+        },
+        {
+          "label": "c",
+          "key": "c",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyC"
+        },
+        {
+          "label": "v",
+          "key": "v",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyV"
+        },
+        {
+          "label": "b",
+          "key": "b",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyB"
+        },
+        {
+          "label": "n",
+          "key": "n",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyN"
+        },
+        {
+          "label": "m",
+          "key": "m",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyM"
+        },
+        {
+          "label": ",",
+          "key": ",",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Comma"
+        },
+        {
+          "label": ".",
+          "key": ".",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Period"
+        },
+        {
+          "label": "/",
+          "key": "/",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Slash"
+        },
+        {
+          "label": "SHIFT",
+          "key": "SHIFT",
+          "className": "shift-right",
+          "wide": true,
+          "code": "ShiftRight"
+        }
+      ],
+      [
+        {
+          "label": "CTRL",
+          "key": "CTRL",
+          "className": "ctrl-left",
+          "wide": true,
+          "code": "ControlLeft"
+        },
+        {
+          "label": "ALT",
+          "key": "ALT",
+          "className": "alt-left",
+          "wide": true,
+          "code": "AltLeft"
+        },
+        {
+          "label": "COMMAND",
+          "key": "COMMAND",
+          "className": "command-left",
+          "wide": true,
+          "code": "MetaLeft"
+        },
+        {
+          "label": "SPACE",
+          "key": "SPACE",
+          "className": "space",
+          "wide": true,
+          "extraWide": true,
+          "code": "Space"
+        },
+        {
+          "label": "COMMAND",
+          "key": "COMMAND",
+          "className": "command-right",
+          "wide": true,
+          "code": "MetaRight"
+        },
+        {
+          "label": "ALT",
+          "key": "ALT",
+          "className": "alt-right",
+          "wide": true,
+          "code": "AltRight"
+        },
+        {
+          "label": "CTRL",
+          "key": "CTRL",
+          "className": "ctrl-right",
+          "wide": true,
+          "code": "ControlRight"
+        }
+      ]
+    ],
+    "shifted": [
+      [
+        {
+          "label": "~",
+          "key": "~",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Backquote"
+        },
+        {
+          "label": "!",
+          "key": "!",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit1"
+        },
+        {
+          "label": "@",
+          "key": "@",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit2"
+        },
+        {
+          "label": "#",
+          "key": "#",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit3"
+        },
+        {
+          "label": "$",
+          "key": "$",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit4"
+        },
+        {
+          "label": "%",
+          "key": "%",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit5"
+        },
+        {
+          "label": "^",
+          "key": "^",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit6"
+        },
+        {
+          "label": "&",
+          "key": "&",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit7"
+        },
+        {
+          "label": "*",
+          "key": "*",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit8"
+        },
+        {
+          "label": "(",
+          "key": "(",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit9"
+        },
+        {
+          "label": ")",
+          "key": ")",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit0"
+        },
+        {
+          "label": "_",
+          "key": "_",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Minus"
+        },
+        {
+          "label": "+",
+          "key": "+",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Equal"
+        },
+        {
+          "label": "BACKSPACE",
+          "key": "BACKSPACE",
+          "className": "back",
+          "wide": true,
+          "code": "Backspace"
+        }
+      ],
+      [
+        {
+          "label": "TAB",
+          "key": "TAB",
+          "className": "tab",
+          "wide": true,
+          "code": "Tab"
+        },
+        {
+          "label": "Q",
+          "key": "Q",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyQ"
+        },
+        {
+          "label": "W",
+          "key": "W",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyW"
+        },
+        {
+          "label": "E",
+          "key": "E",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyE"
+        },
+        {
+          "label": "R",
+          "key": "R",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyR"
+        },
+        {
+          "label": "T",
+          "key": "T",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyT"
+        },
+        {
+          "label": "Y",
+          "key": "Y",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyY"
+        },
+        {
+          "label": "U",
+          "key": "U",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyU"
+        },
+        {
+          "label": "I",
+          "key": "I",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyI"
+        },
+        {
+          "label": "O",
+          "key": "O",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyO"
+        },
+        {
+          "label": "P",
+          "key": "P",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyP"
+        },
+        {
+          "label": "{",
+          "key": "{",
+          "className": "layout-key",
+          "wide": false,
+          "code": "BracketLeft"
+        },
+        {
+          "label": "}",
+          "key": "}",
+          "className": "layout-key",
+          "wide": false,
+          "code": "BracketRight"
+        },
+        {
+          "label": "|",
+          "key": "|",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Backslash"
+        }
+      ],
+      [
+        {
+          "label": "CAPS",
+          "key": "CAPS",
+          "className": "caps",
+          "wide": true,
+          "code": "CapsLock"
+        },
+        {
+          "label": "A",
+          "key": "A",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyA"
+        },
+        {
+          "label": "S",
+          "key": "S",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyS"
+        },
+        {
+          "label": "D",
+          "key": "D",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyD"
+        },
+        {
+          "label": "F",
+          "key": "F",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyF"
+        },
+        {
+          "label": "G",
+          "key": "G",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyG"
+        },
+        {
+          "label": "H",
+          "key": "H",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyH"
+        },
+        {
+          "label": "J",
+          "key": "J",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyJ"
+        },
+        {
+          "label": "K",
+          "key": "K",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyK"
+        },
+        {
+          "label": "L",
+          "key": "L",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyL"
+        },
+        {
+          "label": ":",
+          "key": ":",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Semicolon"
+        },
+        {
+          "label": "\"",
+          "key": "\"",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Quote"
+        },
+        {
+          "label": "ENTER",
+          "key": "ENTER",
+          "className": "enter",
+          "wide": true,
+          "code": "Enter"
+        }
+      ],
+      [
+        {
+          "label": "SHIFT",
+          "key": "SHIFT",
+          "className": "shift-left",
+          "wide": true,
+          "code": "ShiftLeft"
+        },
+        {
+          "label": "Z",
+          "key": "Z",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyZ"
+        },
+        {
+          "label": "X",
+          "key": "X",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyX"
+        },
+        {
+          "label": "C",
+          "key": "C",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyC"
+        },
+        {
+          "label": "V",
+          "key": "V",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyV"
+        },
+        {
+          "label": "B",
+          "key": "B",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyB"
+        },
+        {
+          "label": "N",
+          "key": "N",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyN"
+        },
+        {
+          "label": "M",
+          "key": "M",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyM"
+        },
+        {
+          "label": "<",
+          "key": "<",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Comma"
+        },
+        {
+          "label": ">",
+          "key": ">",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Period"
+        },
+        {
+          "label": "?",
+          "key": "?",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Slash"
+        },
+        {
+          "label": "SHIFT",
+          "key": "SHIFT",
+          "className": "shift-right",
+          "wide": true,
+          "code": "ShiftRight"
+        }
+      ],
+      [
+        {
+          "label": "CTRL",
+          "key": "CTRL",
+          "className": "ctrl-left",
+          "wide": true,
+          "code": "ControlLeft"
+        },
+        {
+          "label": "ALT",
+          "key": "ALT",
+          "className": "alt-left",
+          "wide": true,
+          "code": "AltLeft"
+        },
+        {
+          "label": "COMMAND",
+          "key": "COMMAND",
+          "className": "command-left",
+          "wide": true,
+          "code": "MetaLeft"
+        },
+        {
+          "label": "SPACE",
+          "key": "SPACE",
+          "className": "space",
+          "wide": true,
+          "extraWide": true,
+          "code": "Space"
+        },
+        {
+          "label": "COMMAND",
+          "key": "COMMAND",
+          "className": "command-right",
+          "wide": true,
+          "code": "MetaRight"
+        },
+        {
+          "label": "ALT",
+          "key": "ALT",
+          "className": "alt-right",
+          "wide": true,
+          "code": "AltRight"
+        },
+        {
+          "label": "CTRL",
+          "key": "CTRL",
+          "className": "ctrl-right",
+          "wide": true,
+          "code": "ControlRight"
+        }
+      ]
+    ]
+  },
+  "malayalamLayout": {
+    "normal": [
+      [
+        {
+          "label": "ൊ",
+          "key": "`",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Backquote"
+        },
+        {
+          "label": "൧",
+          "key": "1",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit1"
+        },
+        {
+          "label": "൨",
+          "key": "2",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit2"
+        },
+        {
+          "label": "൩",
+          "key": "3",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit3"
+        },
+        {
+          "label": "൪",
+          "key": "4",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit4"
+        },
+        {
+          "label": "൫",
+          "key": "5",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit5"
+        },
+        {
+          "label": "൬",
+          "key": "6",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit6"
+        },
+        {
+          "label": "൭",
+          "key": "7",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit7"
+        },
+        {
+          "label": "൮",
+          "key": "8",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit8"
+        },
+        {
+          "label": "൯",
+          "key": "9",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit9"
+        },
+        {
+          "label": "൦",
+          "key": "0",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit0"
+        },
+        {
+          "label": "-",
+          "key": "-",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Minus"
+        },
+        {
+          "label": "ൃ",
+          "key": "=",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Equal"
+        },
+        {
+          "label": "BACKSPACE",
+          "key": "BACKSPACE",
+          "className": "back",
+          "wide": true,
+          "code": "Backspace"
+        }
+      ],
+      [
+        {
+          "label": "TAB",
+          "key": "TAB",
+          "className": "tab",
+          "wide": true,
+          "code": "Tab"
+        },
+        {
+          "label": "ൗ",
+          "key": "q",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyQ"
+        },
+        {
+          "label": "ൈ",
+          "key": "w",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyW"
+        },
+        {
+          "label": "ാ",
+          "key": "e",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyE"
+        },
+        {
+          "label": "ീ",
+          "key": "r",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyR"
+        },
+        {
+          "label": "ൂ",
+          "key": "t",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyT"
+        },
+        {
+          "label": "ബ",
+          "key": "y",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyY"
+        },
+        {
+          "label": "ഹ",
+          "key": "u",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyU"
+        },
+        {
+          "label": "ഗ",
+          "key": "i",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyI"
+        },
+        {
+          "label": "ദ",
+          "key": "o",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyO"
+        },
+        {
+          "label": "ജ",
+          "key": "p",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyP"
+        },
+        {
+          "label": "ഡ",
+          "key": "[",
+          "className": "layout-key",
+          "wide": false,
+          "code": "BracketLeft"
+        },
+        {
+          "label": "∎",
+          "key": "]",
+          "className": "layout-key",
+          "wide": false,
+          "code": "BracketRight"
+        },
+        {
+          "label": "ർ",
+          "key": "\\",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Backslash"
+        }
+      ],
+      [
+        {
+          "label": "CAPS",
+          "key": "CapsLock",
+          "className": "caps",
+          "wide": true,
+          "code": "CapsLock"
+        },
+        {
+          "label": "ോ",
+          "key": "a",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyA"
+        },
+        {
+          "label": "േ",
+          "key": "s",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyS"
+        },
+        {
+          "label": "്",
+          "key": "d",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyD"
+        },
+        {
+          "label": "ി",
+          "key": "f",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyF"
+        },
+        {
+          "label": "ു",
+          "key": "g",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyG"
+        },
+        {
+          "label": "പ",
+          "key": "h",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyH"
+        },
+        {
+          "label": "ര",
+          "key": "j",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyJ"
+        },
+        {
+          "label": "ക",
+          "key": "k",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyK"
+        },
+        {
+          "label": "ത",
+          "key": "l",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyL"
+        },
+        {
+          "label": "ച",
+          "key": ";",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Semicolon"
+        },
+        {
+          "label": "ട",
+          "key": "'",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Quote"
+        },
+        {
+          "label": "ENTER",
+          "key": "Enter",
+          "className": "enter",
+          "wide": true,
+          "code": "Enter"
+        }
+      ],
+      [
+        {
+          "label": "SHIFT",
+          "key": "Shift",
+          "className": "shift-left",
+          "wide": true,
+          "code": "ShiftLeft"
+        },
+        {
+          "label": "െ",
+          "key": "z",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyZ"
+        },
+        {
+          "label": "ം",
+          "key": "x",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyX"
+        },
+        {
+          "label": "മ",
+          "key": "c",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyC"
+        },
+        {
+          "label": "ന",
+          "key": "v",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyV"
+        },
+        {
+          "label": "വ",
+          "key": "b",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyB"
+        },
+        {
+          "label": "ല",
+          "key": "n",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyN"
+        },
+        {
+          "label": "സ",
+          "key": "m",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyM"
+        },
+        {
+          "label": ",",
+          "key": ",",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Comma"
+        },
+        {
+          "label": ".",
+          "key": ".",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Period"
+        },
+        {
+          "label": "യ",
+          "key": "/",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Slash"
+        },
+        {
+          "label": "SHIFT",
+          "key": "Shift",
+          "className": "shift-right",
+          "wide": true,
+          "code": "ShiftRight"
+        }
+      ],
+      [
+        {
+          "label": "CTRL",
+          "key": "CTRL",
+          "className": "ctrl-left",
+          "wide": true,
+          "code": "ControlLeft"
+        },
+        {
+          "label": "ALT",
+          "key": "ALT",
+          "className": "alt-left",
+          "wide": true,
+          "code": "AltLeft"
+        },
+        {
+          "label": "COMMAND",
+          "key": "COMMAND",
+          "className": "command-left",
+          "wide": true,
+          "code": "MetaLeft"
+        },
+        {
+          "label": "SPACE",
+          "key": "SPACE",
+          "className": "space",
+          "wide": true,
+          "extraWide": true,
+          "code": "Space"
+        },
+        {
+          "label": "COMMAND",
+          "key": "COMMAND",
+          "className": "command-right",
+          "wide": true,
+          "code": "MetaRight"
+        },
+        {
+          "label": "ALT",
+          "key": "ALT",
+          "className": "alt-right",
+          "wide": true,
+          "code": "AltRight"
+        },
+        {
+          "label": "CTRL",
+          "key": "CTRL",
+          "className": "ctrl-right",
+          "wide": true,
+          "code": "ControlRight"
+        }
+      ]
+    ],
+
+    "shifted": [
+      [
+        {
+          "label": "ഒ",
+          "key": "~",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Backtick"
+        },
+        {
+          "label": "1",
+          "key": "1",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit1"
+        },
+        {
+          "label": "2",
+          "key": "2",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit2"
+        },
+        {
+          "label": "3",
+          "key": "3",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit3"
+        },
+        {
+          "label": "4",
+          "key": "4",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit4"
+        },
+        {
+          "label": "5",
+          "key": "5",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit5"
+        },
+        {
+          "label": "6",
+          "key": "6",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit6"
+        },
+        {
+          "label": "7",
+          "key": "7",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit7"
+        },
+        {
+          "label": "8",
+          "key": "8",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit8"
+        },
+        {
+          "label": "9",
+          "key": "9",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit9"
+        },
+        {
+          "label": "0",
+          "key": "0",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Digit0"
+        },
+        {
+          "label": "ഃ",
+          "key": "_",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Minus"
+        },
+        {
+          "label": "ഋ",
+          "key": "+",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Equal"
+        },
+        {
+          "label": "BACKSPACE",
+          "key": "BACKSPACE",
+          "className": "back",
+          "wide": true,
+          "code": "Backspace"
+        }
+      ],
+      [
+        {
+          "label": "TAB",
+          "key": "TAB",
+          "className": "tab",
+          "wide": true,
+          "code": "Tab"
+        },
+        {
+          "label": "ഔ",
+          "key": "Q",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyQ"
+        },
+        {
+          "label": "ഐ",
+          "key": "W",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyW"
+        },
+        {
+          "label": "ആ",
+          "key": "E",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyE"
+        },
+        {
+          "label": "ഈ",
+          "key": "R",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyR"
+        },
+        {
+          "label": "ഊ",
+          "key": "T",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyT"
+        },
+        {
+          "label": "ഭ",
+          "key": "Y",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyY"
+        },
+        {
+          "label": "ങ",
+          "key": "U",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyU"
+        },
+        {
+          "label": "ഘ",
+          "key": "I",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyI"
+        },
+        {
+          "label": "ധ",
+          "key": "O",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyO"
+        },
+        {
+          "label": "ഝ",
+          "key": "P",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyP"
+        },
+        {
+          "label": "ഢ",
+          "key": "{",
+          "className": "layout-key",
+          "wide": false,
+          "code": "BracketLeft"
+        },
+        {
+          "label": "ഞ",
+          "key": "}",
+          "className": "layout-key",
+          "wide": false,
+          "code": "BracketRight"
+        },
+        {
+          "label": "|",
+          "key": "|",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Backslash"
+        }
+      ],
+      [
+        {
+          "label": "CAPS",
+          "key": "CapsLock",
+          "className": "caps",
+          "wide": true,
+          "code": "CapsLock"
+        },
+        {
+          "label": "ഓ",
+          "key": "A",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyA"
+        },
+        {
+          "label": "ഏ",
+          "key": "S",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyS"
+        },
+        {
+          "label": "അ",
+          "key": "D",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyD"
+        },
+        {
+          "label": "ഇ",
+          "key": "F",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyF"
+        },
+        {
+          "label": "ഉ",
+          "key": "G",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyG"
+        },
+        {
+          "label": "ഫ",
+          "key": "H",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyH"
+        },
+        {
+          "label": "റ",
+          "key": "J",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyJ"
+        },
+        {
+          "label": "ഖ",
+          "key": "K",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyK"
+        },
+        {
+          "label": "ഥ",
+          "key": "L",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyL"
+        },
+        {
+          "label": "ഛ",
+          "key": ":",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Semicolon"
+        },
+        {
+          "label": "ഠ",
+          "key": "'",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Quote"
+        },
+        {
+          "label": "ENTER",
+          "key": "Enter",
+          "className": "enter",
+          "wide": true,
+          "code": "Enter"
+        }
+      ],
+      [
+        {
+          "label": "SHIFT",
+          "key": "SHIFT",
+          "className": "shift-left",
+          "wide": true,
+          "code": "ShiftLeft"
+        },
+        {
+          "label": "എ",
+          "key": "Z",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyZ"
+        },
+        {
+          "label": "‍",
+          "key": "X",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyX"
+        },
+        {
+          "label": "ണ",
+          "key": "C",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyC"
+        },
+        {
+          "label": "‌",
+          "key": "V",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyV"
+        },
+        {
+          "label": "ഴ",
+          "key": "B",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyB"
+        },
+        {
+          "label": "ള",
+          "key": "N",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyN"
+        },
+        {
+          "label": "ശ",
+          "key": "M",
+          "className": "layout-key",
+          "wide": false,
+          "code": "KeyM"
+        },
+        {
+          "label": "ഷ",
+          "key": "<",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Comma"
+        },
+        {
+          "label": ".",
+          "key": ">",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Period"
+        },
+        {
+          "label": "/",
+          "key": "?",
+          "className": "layout-key",
+          "wide": false,
+          "code": "Slash"
+        },
+        {
+          "label": "SHIFT",
+          "key": "SHIFT",
+          "className": "shift-right",
+          "wide": true,
+          "code": "ShiftRight"
+        }
+      ],
+      [
+        {
+          "label": "CTRL",
+          "key": "CTRL",
+          "className": "ctrl-left",
+          "wide": true,
+          "code": "ControlLeft"
+        },
+        {
+          "label": "ALT",
+          "key": "ALT",
+          "className": "alt-left",
+          "wide": true,
+          "code": "AltLeft"
+        },
+        {
+          "label": "COMMAND",
+          "key": "COMMAND",
+          "className": "command-left",
+          "wide": true,
+          "code": "MetaLeft"
+        },
+        {
+          "label": "SPACE",
+          "key": "SPACE",
+          "className": "space",
+          "wide": true,
+          "extraWide": true,
+          "code": "Space"
+        },
+        {
+          "label": "COMMAND",
+          "key": "COMMAND",
+          "className": "command-right",
+          "wide": true,
+          "code": "MetaRight"
+        },
+        {
+          "label": "ALT",
+          "key": "ALT",
+          "className": "alt-right",
+          "wide": true,
+          "code": "AltRight"
+        },
+        {
+          "label": "CTRL",
+          "key": "CTRL",
+          "className": "ctrl-right",
+          "wide": true,
+          "code": "ControlRight"
+        }
+      ]
+    ]
+  }
+}

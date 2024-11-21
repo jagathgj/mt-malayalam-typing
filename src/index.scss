@@ -2,6 +2,12 @@
 @use "@carbon/react/scss/theme" as *;
 @use "@carbon/react/scss/spacing" as *;
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;300;400;500;600;700&display=swap");
+@font-face {
+  font-family: "Meera";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Meera"), url("./assets/Meera_04.woff") format("woff");
+}
 
 html,
 body,
@@ -52,6 +58,12 @@ body,
     height: 100%;
     flex: 1;
     font-size: 24px;
+  }
+  &.malayalam-textarea {
+    textarea,
+    .cds--text-area__wrapper {
+      font-family: "Meera";
+    }
   }
 }
 
