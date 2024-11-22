@@ -133,7 +133,7 @@ const App = () => {
 
   const completionMessage = `പൊളി!! നിങ്ങൾ${
     " " + levelsData[currentLevel]?.label + " "
-  } പൂർത്തിയാക്കിയിരുന്നു`;
+  } പൂർത്തിയാക്കിയിരിക്കുന്നു`;
 
   const currentCharacter =
     levelsData[currentLevel]?.characters[currentIndex]?.character;
