@@ -226,7 +226,7 @@ const App = () => {
           </div>
           <div className="status-wrapper">
             <span>Completed :&nbsp;</span>
-            <span className="progress">{` ${" " + (currentIndex + 1)}`}</span>
+            <span className="progress">{` ${" " + currentIndex}`}</span>
             <span>/</span>
             <span className="progress">
               {levelsData[currentLevel]?.characters.length}
