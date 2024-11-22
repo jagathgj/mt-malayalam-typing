@@ -239,7 +239,7 @@ const App = () => {
             language === "malayalam" ? "malayalam-textarea" : ""
           }`}
         >
-          <TextArea ref={textareaRef} labelText="" rows={4} id="text-area-1" />
+          <TextArea ref={textareaRef} labelText="" rows={4} id="textarea" />
         </div>
         <div className="keyboard-wrapper">
           <Keyboard
