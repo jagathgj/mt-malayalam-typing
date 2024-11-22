@@ -185,9 +185,9 @@ const App = () => {
               <h4>{currentCharacter}</h4>
             )}
           </div>
-          {currentTip !== "" && (
-            <div className="tip-wrapper">{`Tip: ${currentTip}`}</div>
-          )}
+        </div>
+        <div className="tip-wrapper">
+          {currentTip !== "" && `Tip: ${currentTip}`}
         </div>
 
         <div className="toolbar-wrapper">
