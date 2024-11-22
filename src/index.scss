@@ -20,6 +20,7 @@ body,
   display: flex;
   min-height: 100%;
   font-family: "IBM Plex Sans", sans-serif;
+  overscroll-behavior: none;
 }
 
 .container {
