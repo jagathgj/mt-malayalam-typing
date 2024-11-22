@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mt-malayalam-typing/static/css/main.560ea0f8.css",
+    "main.css": "/mt-malayalam-typing/static/css/main.ae0b39d3.css",
     "main.js": "/mt-malayalam-typing/static/js/main.71cc5d02.js",
     "static/media/Meera_04.woff": "/mt-malayalam-typing/static/media/Meera_04.dab6d714b663d8723fd3.woff",
     "service-worker.js": "/mt-malayalam-typing/service-worker.js",
@@ -185,11 +185,11 @@
     "static/media/IBMPlexMono-Light-Latin3.woff2": "/mt-malayalam-typing/static/media/IBMPlexMono-Light-Latin3.8a014da16bb5df1e9830.woff2",
     "static/media/IBMPlexMono-Regular-Latin3.woff2": "/mt-malayalam-typing/static/media/IBMPlexMono-Regular-Latin3.cacfd1d7dbd14067b970.woff2",
     "index.html": "/mt-malayalam-typing/index.html",
-    "main.560ea0f8.css.map": "/mt-malayalam-typing/static/css/main.560ea0f8.css.map",
+    "main.ae0b39d3.css.map": "/mt-malayalam-typing/static/css/main.ae0b39d3.css.map",
     "main.71cc5d02.js.map": "/mt-malayalam-typing/static/js/main.71cc5d02.js.map"
   },
   "entrypoints": [
-    "static/css/main.560ea0f8.css",
+    "static/css/main.ae0b39d3.css",
     "static/js/main.71cc5d02.js"
   ]
 }
