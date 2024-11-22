@@ -1,6 +1,8 @@
 @use "@carbon/react";
 @use "@carbon/react/scss/theme" as *;
 @use "@carbon/react/scss/spacing" as *;
+@use "@carbon/react/scss/type" as *;
+@use "@carbon/styles/scss/components/button/tokens" as *;
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;300;400;500;600;700&display=swap");
 @font-face {
   font-family: "Meera";
@@ -39,6 +41,85 @@ body,
   height: calc(100dvh - 3rem);
 }
 
+.cds-btn {
+  display: inline-block;
+  padding: $spacing-05;
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0);
+  @include type-style("body-short-01");
+}
+
+.cds-btn--primary {
+  @extend .cds-btn;
+
+  // Primary styles
+  background-color: $button-primary;
+  color: $text-on-color;
+
+  &:hover {
+    background-color: $button-primary-hover;
+  }
+
+  &:active,
+  &.active {
+    background-color: $button-primary-active;
+  }
+
+  &:focus {
+    border-color: $focus;
+    box-shadow: inset 0 0 0 1px $focus, inset 0 0 0 2px $background;
+  }
+}
+
+.cds-btn--secondary {
+  @extend .cds-btn;
+
+  // Secondary styles
+  background-color: $button-secondary;
+  color: $text-on-color;
+
+  &:hover {
+    background-color: $button-secondary-hover;
+  }
+
+  &:active,
+  &.active {
+    background-color: $support-success-inverse;
+  }
+
+  &:focus {
+    border-color: $focus;
+    box-shadow: inset 0 0 0 1px $focus, inset 0 0 0 2px $background;
+  }
+}
+
+.cds-btn--danger {
+  @extend .cds-btn;
+
+  // Secondary styles
+  background-color: $button-danger-primary;
+  color: $text-on-color;
+
+  &:hover {
+    background-color: $button-danger-hover;
+  }
+
+  &:active,
+  &.active {
+    background-color: $button-danger-active;
+  }
+
+  &:focus {
+    border-color: $focus;
+    box-shadow: inset 0 0 0 1px $focus, inset 0 0 0 2px $background;
+  }
+}
+
 .keyboard-wrapper {
   display: flex;
   width: 100%;
@@ -63,17 +144,116 @@ body,
   &.malayalam-textarea {
     textarea,
     .cds--text-area__wrapper {
-      font-family: "Meera";
+      // font-family: "Meera";
+      font-size: $spacing-07;
     }
+  }
+}
+
+.screen-wrapper {
+  display: flex;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto $spacing-08;
+  justify-content: center;
+  align-items: center;
+  background-color: $background;
+  // background-color: rgba(0, 0, 0, 0.7);
+  min-height: 8rem;
+  padding: $spacing-04;
+  border: 1px solid $border-subtle-01;
+  position: relative;
+  svg {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+  }
+  .heading-wrapper {
+    padding: $spacing-04;
+    background-color: $background-inverse-hover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h4 {
+    @include type-style("heading-06");
+    color: $text-on-color;
+    // position: absolute;
+    // transform: translate(-50%, -50%);
+    // left: 50%;
+    // top: 50%;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.tip-wrapper {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -$spacing-09;
+  display: flex;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: $spacing-05 0;
+  justify-content: center;
+  align-items: center;
+  @include type-style("body-short-01");
+}
+
+.toolbar-wrapper {
+  display: flex;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto $spacing-06;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.level-wrapper {
+  display: flex;
+  margin-right: 1.5rem;
+  align-items: flex-end;
+
+  & > div {
+    flex: 0 0 220px;
+  }
+}
+
+.restart-wrapper {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.status-wrapper {
+  display: flex;
+  flex: 0 0 auto;
+  .progress {
+    font-weight: bold;
+  }
+}
+
+.completion-message {
+  h5 {
+    @include type-style("heading-07");
+    font-size: 24px;
+    color: $support-success-inverse;
   }
 }
 
 .switcher-wrapper {
   display: flex;
   width: 100%;
-  max-width: 960px;
-  margin: 0 auto $spacing-06;
-  justify-content: flex-end;
+  max-width: 220px;
+  margin: 0 auto;
+  flex: 0 0 auto;
 
   & > div {
     flex: 0 0 220px;

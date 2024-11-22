@@ -19,6 +19,7 @@ const Keyboard = ({ activeKeys, shiftPressed, layout }) => {
                     ? "cds-btn--danger"
                     : "cds-btn--secondary"
                 }`}
+                title={key.key}
               >
                 {key.label}
               </button>

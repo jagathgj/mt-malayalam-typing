@@ -878,70 +878,70 @@
           "code": "Backquote"
         },
         {
-          "label": "൧",
+          "label": "1",
           "key": "1",
           "className": "layout-key",
           "wide": false,
           "code": "Digit1"
         },
         {
-          "label": "൨",
+          "label": "2",
           "key": "2",
           "className": "layout-key",
           "wide": false,
           "code": "Digit2"
         },
         {
-          "label": "൩",
+          "label": "3",
           "key": "3",
           "className": "layout-key",
           "wide": false,
           "code": "Digit3"
         },
         {
-          "label": "൪",
+          "label": "4",
           "key": "4",
           "className": "layout-key",
           "wide": false,
           "code": "Digit4"
         },
         {
-          "label": "൫",
+          "label": "5",
           "key": "5",
           "className": "layout-key",
           "wide": false,
           "code": "Digit5"
         },
         {
-          "label": "൬",
+          "label": "6",
           "key": "6",
           "className": "layout-key",
           "wide": false,
           "code": "Digit6"
         },
         {
-          "label": "൭",
+          "label": "7",
           "key": "7",
           "className": "layout-key",
           "wide": false,
           "code": "Digit7"
         },
         {
-          "label": "൮",
+          "label": "8",
           "key": "8",
           "className": "layout-key",
           "wide": false,
           "code": "Digit8"
         },
         {
-          "label": "൯",
+          "label": "9",
           "key": "9",
           "className": "layout-key",
           "wide": false,
           "code": "Digit9"
         },
         {
-          "label": "൦",
+          "label": "0",
           "key": "0",
           "className": "layout-key",
           "wide": false,
@@ -1735,5 +1735,405 @@
         }
       ]
     ]
+  },
+  "levels": {
+    "1": {
+      "label": "സ്വരങ്ങൾ (Vowels)",
+      "characters": [
+        { "character": "അ", "tip": "Press 'shift + D' on your keyboard" },
+        { "character": "ആ", "tip": "Press 'shift + E' on your keyboard" },
+        { "character": "ഇ", "tip": "Press 'shift + F' on your keyboard" },
+        { "character": "ഈ", "tip": "Press 'shift + R' on your keyboard" },
+        { "character": "ഉ", "tip": "Press 'shift + G' on your keyboard" },
+        { "character": "ഊ", "tip": "Press 'shift + T' on your keyboard" },
+        {
+          "character": "ഋ",
+          "tip": "Press 'shift + =' on your keyboard. Equal(=) is near backspace"
+        },
+        { "character": "എ", "tip": "Press 'shift + Z' on your keyboard" },
+        { "character": "ഏ", "tip": "Press 'shift + S' on your keyboard" },
+        { "character": "ഐ", "tip": "Press 'shift + W' on your keyboard" },
+        {
+          "character": "ഒ",
+          "tip": "Press 'shift + ~' on your keyboard."
+        },
+        { "character": "ഓ", "tip": "Press 'shift + A' on your keyboard" },
+        { "character": "ഔ", "tip": "Press 'shift + Q' on your keyboard" },
+        {
+          "character": "അം",
+          "tip": "Press 'shift + D' then press 'x' on your keyboard"
+        },
+        {
+          "character": "അഃ",
+          "tip": "Press 'shift + D' then press 'shift + hyphen' on your keyboard. Hyphen(-) is near the Backspace key"
+        }
+      ]
+    },
+    "2": {
+      "label": "ചിഹ്നങ്ങൾ (Symbols)",
+      "characters": [
+        { "character": "ാ", "tip": "Press 'E' on your keyboard" },
+        { "character": "ി", "tip": "Press 'F' on your keyboard" },
+        { "character": "ീ", "tip": "Press 'R' on your keyboard" },
+        { "character": "ു", "tip": "Press 'G' on your keyboard" },
+        { "character": "ൂ", "tip": "Press 'T' on your keyboard" },
+        {
+          "character": "ൃ",
+          "tip": "Press '=' on your keyboard. Equal(=) is near the Backspace key"
+        },
+        { "character": "െ", "tip": "Press 'Z' on your keyboard" },
+        { "character": "േ", "tip": "Press 'S' on your keyboard" },
+        { "character": "ൈ", "tip": "Press 'W' on your keyboard" },
+        { "character": "ൊ", "tip": "Press '~' on your keyboard" },
+        { "character": "ോ", "tip": "Press 'A' on your keyboard" },
+        { "character": "ൗ", "tip": "Press 'Q' on your keyboard" },
+        { "character": "ം", "tip": "Press 'X' on your keyboard" },
+        {
+          "character": "ഃ",
+          "tip": "Press '-' on your keyboard. Hyphen(-) is near the Backspace key"
+        }
+      ]
+    },
+    "3": {
+      "label": "വ്യഞ്ജനങ്ങൾ (Consonants)",
+      "characters": [
+        { "character": "ക", "tip": "Press 'K' on your keyboard" },
+        { "character": "ഖ", "tip": "Press 'Shift + K' on your keyboard" },
+        { "character": "ഗ", "tip": "Press 'I' on your keyboard" },
+        { "character": "ഘ", "tip": "Press 'Shift + I' on your keyboard" },
+        { "character": "ങ", "tip": "Press 'Shift + U' on your keyboard" },
+        { "character": "ച", "tip": "Press ';' on your keyboard" },
+        { "character": "ഛ", "tip": "Press 'Shift + ;' on your keyboard" },
+        { "character": "ജ", "tip": "Press 'P' on your keyboard" },
+        { "character": "ഝ", "tip": "Press 'Shift + P' on your keyboard" },
+        { "character": "ഞ", "tip": "Press 'Shift + }' on your keyboard" },
+        { "character": "ട", "tip": "Press ' on your keyboard" },
+        {
+          "character": "ഠ",
+          "tip": "Press 'Shift + '' on your keyboard. Single quotes(') is near Enter key"
+        },
+        { "character": "ഡ", "tip": "Press '[' on your keyboard" },
+        { "character": "ഢ", "tip": "Press 'Shift + [' on your keyboard" },
+        { "character": "ണ", "tip": "Press 'Shift + C' on your keyboard" },
+        { "character": "ത", "tip": "Press 'L' on your keyboard" },
+        { "character": "ഥ", "tip": "Press 'Shift + L' on your keyboard" },
+        { "character": "ദ", "tip": "Press 'O' on your keyboard" },
+        { "character": "ധ", "tip": "Press 'Shift + O' on your keyboard" },
+        { "character": "ന", "tip": "Press 'V' on your keyboard" },
+        { "character": "പ", "tip": "Press 'H' on your keyboard" },
+        { "character": "ഫ", "tip": "Press 'Shift + H' on your keyboard" },
+        { "character": "ബ", "tip": "Press 'Y' on your keyboard" },
+        { "character": "ഭ", "tip": "Press 'Shift + Y' on your keyboard" },
+        { "character": "മ", "tip": "Press 'C' on your keyboard" },
+        {
+          "character": "യ",
+          "tip": "Press '/' on your keyboard. Slash(/) is near right Shift key"
+        },
+        { "character": "ര", "tip": "Press 'J' on your keyboard" },
+        { "character": "ല", "tip": "Press 'N' on your keyboard" },
+        { "character": "വ", "tip": "Press 'B' on your keyboard" },
+        { "character": "ശ", "tip": "Press 'Shift + M' on your keyboard" },
+        { "character": "ഷ", "tip": "Press 'Shift + <' on your keyboard" },
+        { "character": "സ", "tip": "Press 'M' on your keyboard" },
+        { "character": "ഹ", "tip": "Press 'U' on your keyboard" },
+        { "character": "ള", "tip": "Press 'Shift + N' on your keyboard" },
+        { "character": "ഴ", "tip": "Press 'Shift + B' on your keyboard" },
+        { "character": "റ", "tip": "Press 'Shift + J' on your keyboard" }
+      ]
+    },
+    "4": {
+      "label": "സ്വരചിഹ്നങ്ങൾ (Vowel symbols)",
+      "characters": [
+        { "character": "ക", "tip": "Press 'K' on your keyboard" },
+        { "character": "കാ", "tip": "Press 'K + E' on your keyboard" },
+        { "character": "കി", "tip": "Press 'K + F' on your keyboard" },
+        { "character": "കീ", "tip": "Press 'K + R' on your keyboard" },
+        { "character": "കു", "tip": "Press 'K + G' on your keyboard" },
+        { "character": "കൂ", "tip": "Press 'K + T' on your keyboard" },
+        { "character": "കൃ", "tip": "Press 'K + =' on your keyboard" },
+        { "character": "കെ", "tip": "Press 'K + Z' on your keyboard" },
+        { "character": "കേ", "tip": "Press 'K + S' on your keyboard" },
+        { "character": "കൈ", "tip": "Press 'K + W' on your keyboard" },
+        {
+          "character": "കൊ",
+          "tip": "Press 'K + `' on your keyboard. Backtick(`) is on the Tilde(~) key"
+        },
+        { "character": "കോ", "tip": "Press 'K + A' on your keyboard" },
+        { "character": "കൗ", "tip": "Press 'K + Q' on your keyboard" },
+        { "character": "കം", "tip": "Press 'K + X' on your keyboard" },
+        {
+          "character": "കഃ",
+          "tip": "Press 'K + (Shift + -)' on your keyboard. Hyphen(-) is near the Backspace key"
+        },
+        {
+          "character": "ക്യ",
+          "tip": "Press 'K + D + /' on your keyboard. Slash(/) is near right Shift key. ക് + യ = ക്യ"
+        },
+        {
+          "character": "ക്ര",
+          "tip": "Press 'K + D + (Shift + J)' on your keyboard. ക് + റ = ക്ര"
+        },
+        {
+          "character": "ക്വ",
+          "tip": "Press 'K + D + B' on your keyboard. ക് + വ = ക്വ"
+        },
+        {
+          "character": "ക്ല",
+          "tip": "Press 'K + D + N' on your keyboard. ക് + ല = ക്ല"
+        }
+      ]
+    },
+    "5": {
+      "label": "കൂട്ടക്ഷരങ്ങൾ (Conjuncts)",
+      "characters": [
+        {
+          "character": "ക്ക",
+          "tip": "ക് + ക = ക്ക"
+        },
+        {
+          "character": "ഗ്ഗ",
+          "tip": "ഗ് + ഗ = ഗ്ഗ"
+        },
+        {
+          "character": "ങ്ങ",
+          "tip": "ങ് + ങ = ങ്ങ"
+        },
+        {
+          "character": "ച്ച",
+          "tip": "ച് + ച = ച്ച"
+        },
+        {
+          "character": "ജ്ജ",
+          "tip": "ജ് + ജ = ജ്ജ"
+        },
+        {
+          "character": "ഞ്ഞ",
+          "tip": "ഞ് + ഞ = ഞ്ഞ"
+        },
+        {
+          "character": "ട്ട",
+          "tip": "ട് + ട = ട്ട"
+        },
+        {
+          "character": "ഡ്ഡ",
+          "tip": "ഡ് + ഡ = ഡ്ഡ"
+        },
+        {
+          "character": "ണ്ണ",
+          "tip": "ണ് + ണ = ണ്ണ"
+        },
+        {
+          "character": "ത്ത",
+          "tip": "ത് + ത = ത്ത"
+        },
+        {
+          "character": "ദ്ദ",
+          "tip": "ദ് + ദ = ദ്ദ"
+        },
+        {
+          "character": "പ്പ",
+          "tip": "പ് + പ = പ്പ"
+        },
+        { "character": "ബ്ബ", "tip": "ബ് + ബ = ബ്ബ" },
+        { "character": "മ്മ", "tip": "മ് + മ = മ്മ" },
+        { "character": "യ്യ", "tip": "യ് + യ = യ്യ" },
+        { "character": "ല്ല", "tip": "ല് + ല = ല്ല" },
+        { "character": "വ്വ", "tip": "വ് + വ = വ്വ" },
+        { "character": "ള്ള", "tip": "ള് + ള = ള്ള" },
+        { "character": "സ്സ", "tip": "സ് + സ = സ്സ" },
+        { "character": "ശ്ശ", "tip": "ശ് + ശ = ശ്ശ" },
+        { "character": "ങ്ക", "tip": "ങ് + ക = ങ്ക" },
+        { "character": "ഗ്ന", "tip": "ഗ് + ന = ഗ്ന" },
+        { "character": "ഗ്മ", "tip": "ഗ് + മ = ഗ്മ" },
+        { "character": "ഞ്ച", "tip": "ഞ് + ച = ഞ്ച" },
+        { "character": "ഞ്ജ", "tip": "ഞ് + ജ = ഞ്ജ" },
+        { "character": "ണ്മ", "tip": "ണ് + മ = ണ്മ" },
+        { "character": "ണ്ട", "tip": "ണ്മ + ട = ണ്ട" },
+        { "character": "ണ്ഡ്", "tip": "ണ് + ഡ് = ണ്ഡ്" },
+        { "character": "ന്മ", "tip": "ന് + മ = ന്മ" },
+        { "character": "ന്ത", "tip": "ന് + ത = ന്ത" },
+        { "character": "ന്ദ", "tip": "ന് + ദ = ന്ദ" },
+        { "character": "ത്മ", "tip": "ത് + മ = ത്മ" },
+        { "character": "മ്പ", "tip": "മ് + പ = മ്പ" },
+        { "character": "ഹ്ന", "tip": "ഹ് + ന = ഹ്ന" },
+        { "character": "ഹ്മ", "tip": "ഹ് + മ = ഹ്മ" },
+        { "character": "ക്ഷ", "tip": "ക് + ഷ = ക്ഷ" },
+        { "character": "ശ്ച", "tip": "ശ് + ച = ശ്ച" },
+        { "character": "ജ്ഞ", "tip": "ജ് + ഞ = ജ്ഞ" },
+        { "character": "ന്ഥ", "tip": "ന് + ഥ = ന്ഥ" },
+        { "character": "സ്ഥ", "tip": "സ് + ഥ = സ്ഥ" },
+        { "character": "ത്ഥ", "tip": "ത് + ഥ = ത്ഥ" },
+        { "character": "ത്സ", "tip": "ത് + സ = ത്സ" },
+        {
+          "character": "സ്റ്റ",
+          "tip": "സ് + റ് + റ  = സ്റ്റ. Type സ + press 'D' + റ + press 'D' + റ"
+        },
+        { "character": "ത്ഭ", "tip": "ത് + ഭ = ത്ഭ" },
+        { "character": "ന്ധ", "tip": "ന് + ധ = ന്ധ" },
+        { "character": "ദ്ധ", "tip": "ദ് + ധ = ദ്ധ" },
+        { "character": "ന്റ", "tip": "ന് + റ = ന്റ" },
+        { "character": "ക്ത", "tip": "ക് + ത = ക്ത" },
+        { "character": "ല്പ", "tip": "ല് + പ = ല്പ" },
+        { "character": "ത്ര", "tip": "ത് + ര = ത്ര" },
+        { "character": "ത്ന", "tip": "ത് + ന = ത്ന" },
+        { "character": "ഗ്ദ", "tip": "ഗ് + ദ = ഗ്ദ" },
+        { "character": "ച്ഛ", "tip": "ച് + ഛ = ച്ഛ" },
+        { "character": "ന്റെ", "tip": "ന് + റ + െ = ന്റെ" }
+      ]
+    },
+    "6": {
+      "label": "ചില്ലുകൾ (Chillus)",
+      "characters": [
+        {
+          "character": "ൺ",
+          "tip": "Press (shift + C) + D + ]. Note: ണ with a cancelled root vowel."
+        },
+        {
+          "character": "ൻ",
+          "tip": "Press V + D + ]. Note: ന with a cancelled root vowel."
+        },
+        {
+          "character": "ർ",
+          "tip": "Press J + D + ]. Note: ര with a cancelled root vowel."
+        },
+        {
+          "character": "ൽ",
+          "tip": "Press N + D + ]. Note: ല with a cancelled root vowel."
+        },
+        {
+          "character": "ൾ",
+          "tip": "Press (shift + N) + D + ]. Note: ള with a cancelled root vowel."
+        }
+      ]
+    },
+
+    "7": {
+      "label": "വാക്കുകൾ (Words)",
+      "characters": [
+        { "character": "മലയാളം", "tip": "" },
+        { "character": "ഭാരതം", "tip": "" },
+        { "character": "സമീപം", "tip": "" },
+        { "character": "പഠനം", "tip": "" },
+        { "character": "ഗ്രാമം", "tip": "" },
+        { "character": "വിവരങ്ങൾ", "tip": "" },
+        { "character": "വിദ്യാർത്ഥി", "tip": "" },
+        { "character": "സാഹിത്യം", "tip": "" },
+        { "character": "ജീവിതം", "tip": "" },
+        { "character": "കുറിപ്പുകൾ", "tip": "" },
+        { "character": "വിജയം", "tip": "" },
+        { "character": "സംഗീതം", "tip": "" },
+        { "character": "പ്രവർത്തനം", "tip": "" },
+        { "character": "സന്ദേശം", "tip": "" },
+        { "character": "സ്വാതന്ത്ര്യം", "tip": "" },
+        { "character": "ഭാഷ", "tip": "" },
+        { "character": "ഉത്സവം", "tip": "" },
+        { "character": "സൗന്ദര്യം", "tip": "" },
+        { "character": "ആരോഗ്യം", "tip": "" },
+        { "character": "ജീവിതശൈലി", "tip": "" },
+        { "character": "കാഴ്ച", "tip": "" },
+        { "character": "ചിന്ത", "tip": "" },
+        { "character": "ഉന്നതി", "tip": "" },
+        { "character": "സമൂഹം", "tip": "" },
+        { "character": "വിശ്വാസം", "tip": "" },
+        { "character": "സുരക്ഷ", "tip": "" },
+        { "character": "സ്നേഹം", "tip": "" },
+        { "character": "സഹോദരൻ", "tip": "" },
+        { "character": "സഹകരണം", "tip": "" },
+        { "character": "ആശുപത്രി", "tip": "" },
+        { "character": "കാലാവസ്ഥ", "tip": "" },
+        { "character": "പുസ്തകം", "tip": "" },
+        { "character": "അധ്യാപകൻ", "tip": "" },
+        { "character": "കുട്ടികൾ", "tip": "" },
+        { "character": "ആരാധന", "tip": "" },
+        { "character": "സാധനങ്ങൾ", "tip": "" },
+        { "character": "സിനിമ", "tip": "" },
+        { "character": "പ്രകൃതി", "tip": "" },
+        { "character": "ശിക്ഷണം", "tip": "" },
+        { "character": "ആരവം", "tip": "" },
+        { "character": "വ്യായാമം", "tip": "" },
+        { "character": "കല", "tip": "" },
+        { "character": "ഉപകരണം", "tip": "" },
+        { "character": "പഠിപ്പിക്കൽ", "tip": "" },
+        { "character": "പാചകം", "tip": "" },
+        { "character": "ഗൃഹം", "tip": "" },
+        { "character": "ആരാധകർ", "tip": "" },
+        { "character": "സംഗമം", "tip": "" },
+        { "character": "ആശയം", "tip": "" },
+        { "character": "പരിശ്രമം", "tip": "" }
+      ]
+    },
+    "8": {
+      "label": "വാക്യങ്ങൾ (Sentences)",
+      "characters": [
+        { "character": "മലയാളം മനോഹരമാണ്.", "tip": "" },
+        { "character": "നിങ്ങൾ എവിടെ പോകുന്നു?", "tip": "" },
+        { "character": "ഇത് നല്ലൊരു പുസ്തകമാണ്.", "tip": "" },
+        { "character": "പകലിൽ പുഴകൾ ശാന്തമാണ്.", "tip": "" },
+        { "character": "പാചകത്തിന് സമയം വേണ്ടതുണ്ട്.", "tip": "" },
+        { "character": "ഞങ്ങൾ നാട്ടിൽ ഉത്സവം ആചരിച്ചു.", "tip": "" },
+        { "character": "അവൻ തന്റെ പഠനത്തിൽ ശ്രദ്ധിക്കുന്നുണ്ട്.", "tip": "" },
+        {
+          "character": "കുട്ടികൾക്ക് പാഠപുസ്തകങ്ങൾ തിക്കല്‍ലെ ആവശ്യമാണ്.",
+          "tip": ""
+        },
+        { "character": "വീട് വരാനായി അച്ഛൻ വാഹനമെടുത്തു.", "tip": "" },
+        { "character": "നിങ്ങളുടെ സുഹൃത്ത് വളരെ വിനയശീലനാണ്.", "tip": "" },
+        { "character": "പ്രകൃതി കാഴ്ച മനോഹരമാണ്.", "tip": "" },
+        {
+          "character": "നിങ്ങളുടെ ഏറ്റവും ഇഷ്ടപ്പെട്ട ഭക്ഷണം എന്താണ്?",
+          "tip": ""
+        },
+        { "character": "അവൾക്ക് സംഗീതത്തിൽ താൽപ്പര്യമുണ്ട്.", "tip": "" },
+        { "character": "അവരുടെ കുടുംബം സന്തോഷത്തിലാണ്.", "tip": "" },
+        {
+          "character": "പുസ്തകം വായിക്കുന്നത് അറിവ് വർധിപ്പിക്കുന്നു.",
+          "tip": ""
+        },
+        { "character": "സമൂഹം ഒരുമിച്ചാണ് മുന്നോട്ട് പോകുന്നത്.", "tip": "" },
+        { "character": "മഞ്ഞു പെയ്യുന്ന മലകളിൽ യാത്ര സുഖകരമാണ്.", "tip": "" },
+        { "character": "വെള്ളത്തിൽ മീനുകൾ നീന്തുന്നു.", "tip": "" },
+        { "character": "വിജയം പ്രയത്നത്തിന്റെ ഫലമാണ്.", "tip": "" },
+        { "character": "പഠനം ഒരു ജീവിതശൈലിയാണ്.", "tip": "" },
+        { "character": "സഹോദരൻ എന്റെ ഏറ്റവും അടുത്ത സുഹൃത്താണ്.", "tip": "" },
+        {
+          "character": "പനിമരത്തിന്റെ തണലിൽ വിശ്രമം താനേയുള്ളതാണ്.",
+          "tip": ""
+        },
+        { "character": "മഴ പെയ്യുമ്പോൾ മൺസൂൺ മനോഹരമാണ്.", "tip": "" },
+        { "character": "അവൻ നല്ലൊരു നേതാവാണ്.", "tip": "" },
+        {
+          "character": "വൈകുന്നേരം ചായ കുടിക്കുന്നത് ഒരു രീതി ആണ്.",
+          "tip": ""
+        },
+        { "character": "കാട്ടിൽ പക്ഷികൾ ഗാനം പാടുന്നു.", "tip": "" },
+        { "character": "സുഹൃത്ത് എപ്പോഴും സഹായത്തിനൊപ്പമുണ്ടാകണം.", "tip": "" },
+        { "character": "ആവശ്യം ഉണ്ടെങ്കിൽ പറയുക.", "tip": "" },
+        { "character": "നിന്റെ സ്വപ്നങ്ങൾ വലിയവയാക്കുക.", "tip": "" },
+        { "character": "നമുക്ക് ഒന്നിച്ച് പ്രവർത്തിക്കാം.", "tip": "" },
+        { "character": "സാധാരണ മനുഷ്യൻ സമാധാനപ്രിയനാണ്.", "tip": "" },
+        { "character": "സെമിനാർ വളരെ വിജ്ഞാനപ്രദമായിരുന്നു.", "tip": "" },
+        { "character": "മനസ്സിന് ആശ്വാസം തേടുന്നു.", "tip": "" },
+        { "character": "ആരോഗ്യം ജീവിതത്തിന്റെ മാനം കൂടിയാണ്.", "tip": "" },
+        { "character": "നമ്മുടെ ഭാഷയെ പരിപാലിക്കണം.", "tip": "" },
+        { "character": "ഇന്നത്തെ കാലാവസ്ഥ നല്ലതാണ്.", "tip": "" },
+        { "character": "പുൽമേടിൽ മൃഗങ്ങൾ തിരിച്ചു കാണപ്പെടുന്നു.", "tip": "" },
+        { "character": "കുട്ടികൾക്ക് കളിക്കുന്നത് പ്രിയമാണ്.", "tip": "" },
+        { "character": "നമ്മുടെ ഗ്രാമം തികച്ചും ശാന്തമാണ്.", "tip": "" },
+        {
+          "character": "തീരദേശത്തിൽ ചൂടും ശാന്തതയും അനുഭവപ്പെടുന്നു.",
+          "tip": ""
+        },
+        { "character": "ജീവിതം സ്നേഹത്തോടെ ജീവിക്കുക.", "tip": "" },
+        { "character": "നിങ്ങളുടെ ധൈര്യം വേണം.", "tip": "" },
+        { "character": "മലകൾ നമ്മുടെ പ്രകൃതിയുടെ അത്ഭുതങ്ങളാണ്.", "tip": "" },
+        { "character": "മധുരഭാഷയിൽ സംസാരിക്കുക.", "tip": "" },
+        { "character": "കാണാൻ കഴിയാത്തത് ഹൃദയത്തോടെ കാണുക.", "tip": "" },
+        { "character": "ഇന്ത്യ ഒരു മനോഹരമായ ദേശമാണ്.", "tip": "" },
+        { "character": "നമ്മുടെ വിദ്യാഭ്യാസം ഏറ്റവും പ്രധാനമാണ്.", "tip": "" },
+        { "character": "പ്രതീക്ഷ ഒരു വലിയ ശക്തിയാണ്.", "tip": "" },
+        { "character": "ച ജോലി എല്ലായ്പ്പോഴും നല്ലതാണ്.", "tip": "" },
+        { "character": "പ്രിയപ്പെട്ടവരെ സംരക്ഷിക്കുക.", "tip": "" }
+      ]
+    }
   }
 }
