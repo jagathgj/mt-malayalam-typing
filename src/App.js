@@ -1,11 +1,5 @@
 import React, { useState, useEffect, useRef, useCallback } from "react";
-import {
-  TextArea,
-  ContentSwitcher,
-  Switch,
-  Dropdown,
-  Button
-} from "@carbon/react";
+import { TextArea, Dropdown, Button } from "@carbon/react";
 import { Renew } from "@carbon/icons-react";
 import Confetti from "react-confetti";
 import MTHeader from "./components/Header/Header";
@@ -14,7 +8,6 @@ import layout from "./layout.json";
 
 const App = () => {
   const [activeKeys, setActiveKeys] = useState([]);
-  const [language, setLanguage] = useState("malayalam");
   const [shiftPressed, setShiftPressed] = useState(false);
   const [capsLockActive, setCapsLockActive] = useState(false);
   const [currentLevel, setCurrentLevel] = useState("1");
@@ -23,6 +16,7 @@ const App = () => {
   const [confettiShown, setConfettiShown] = useState(false);
 
   const textareaRef = useRef();
+  const language = "malayalam";
 
   const englishLayout = layout.englishLayout;
   const malayalamLayout = layout.malayalamLayout;
@@ -103,7 +97,7 @@ const App = () => {
         return prevKeys;
       });
     },
-    [capsLockActive, currentIndex, levelsData, currentLevel, levelCompleted]
+    [currentIndex, levelsData, currentLevel, levelCompleted]
   );
 
   useEffect(() => {
@@ -238,36 +232,6 @@ const App = () => {
               {levelsData[currentLevel]?.characters.length}
             </span>
           </div>
-          {/* <div className="switcher-wrapper">
-            <ContentSwitcher
-              onChange={(e) => {
-                setLanguage(e.name);
-                setShiftPressed(false);
-                setCapsLockActive(false);
-                setActiveKeys([]);
-                if (textareaRef.current) {
-                  textareaRef.current.value = "";
-                  textareaRef.current.focus();
-                }
-              }}
-              size="sm"
-              selectedIndex={0}
-              selectionMode="automatic"
-            >
-              <Switch
-                name="malayalam"
-                text="Malayalam"
-                aria-label="Switch to Malayalam"
-                selected={language === "malayalam"}
-              />
-              <Switch
-                name="english"
-                text="English"
-                aria-label="Switch to English"
-                selected={language === "english"}
-              />
-            </ContentSwitcher>
-          </div> */}
         </div>
 
         <div
