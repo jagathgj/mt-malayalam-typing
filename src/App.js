@@ -75,14 +75,21 @@ const App = () => {
           userInput === currentCharacter) ||
         userInput.endsWith(currentCharacter)
       ) {
-        if (currentIndex + 1 < levelsData[currentLevel]?.characters.length) {
-          textareaRef.current.value += " ";
-          setCurrentIndex((prevIndex) => prevIndex + 1);
-        } else {
+        if (currentIndex + 1 === levelsData[currentLevel]?.characters.length) {
           // Level completed
+          setCurrentIndex((prevIndex) => prevIndex + 1);
           setLevelCompleted(true);
           setConfettiShown(true);
-          textareaRef.current.value = "";
+          // setTimeout(() => {
+          //   if (textareaRef?.current) {
+          //     textareaRef.current.value = "";
+          //   }
+          // }, 0);
+        } else {
+          if (textareaRef?.current) {
+            textareaRef.current.value += " ";
+          }
+          setCurrentIndex((prevIndex) => prevIndex + 1);
         }
       }
 
@@ -226,7 +233,13 @@ const App = () => {
           </div>
           <div className="status-wrapper">
             <span>Completed :&nbsp;</span>
-            <span className="progress">{` ${" " + currentIndex}`}</span>
+            <span className="progress">{` ${
+              " " +
+              Math.min(
+                currentIndex,
+                levelsData[currentLevel]?.characters.length
+              )
+            }`}</span>
             <span>/</span>
             <span className="progress">
               {levelsData[currentLevel]?.characters.length}
