@@ -1,8 +1,13 @@
 {
-  "short_name": "MT",
+  "short_name": "MT - Malayalam Typing",
   "name": "MT - Malayalam Typing",
   "description": "Malayaalam typing based on Inscript keyboard layout",
   "icons": [
+    {
+      "src": "logo48.png",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    },
     {
       "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
@@ -34,8 +39,31 @@
       "sizes": "512x512"
     }
   ],
+  "screenshots": [
+    {
+      "src": "screenshot-mt.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "MT - Malayalam typing"
+    },
+    {
+      "src": "screenshot640.png",
+      "sizes": "640x320",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "MT - Malayalam typing"
+    }
+  ],
+  "scope": "/",
   "start_url": "/",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#161616",
+  "background_color": "#ffffff",
+  "id": "mt",
+  "dir": "ltr",
+  "orientation": "natural",
+  "url_handlers": [
+    { "origin": "https://jagathgj.github.io/mt-malayalam-typing/" }
+  ]
 }
